@@ -80,7 +80,7 @@ print(f"Vector: {a}, dot product with itself: {np.dot(a, a)}")
 
 ### Step 3: Node.js with pnpm
 
-For TypeScript lessons (agents, MCP servers, web apps).
+For TypeScript lessons (agents, MCP servers, web apps). if you see errors, see the Fix section below. and repeat the fnm and node comands
 
 ```bash
 curl -fsSL https://fnm.vercel.app/install | bash
@@ -92,6 +92,22 @@ npm install -g pnpm
 node -e "console.log('Node', process.version)"
 ```
 
+#### Fix: Set up fnm in your shell profile (do this now)
+
+Still in your terminal, run these **exact three commands** one by one:
+
+```bash
+# 1. Add the official fnm setup line to your .zshrc (macOS default shell)
+echo 'eval "$(fnm env --use-on-cd --shell zsh)"' >> ~/.zshrc
+
+# 2. Reload your shell so it takes effect immediately
+source ~/.zshrc
+
+# 3. Verify fnm is now working
+fnm --version
+```
+
+You should see a version number (no errors).
 ### Step 4: Rust
 
 For performance-critical lessons (inference, systems).
