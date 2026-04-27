@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "phases/00-setup-and-tooling/02-git-and-collaboration/docs/en.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "en"
+              "title": "README"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "phases/00-setup-and-tooling/02-git-and-collaboration/docs/en.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for en"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "phases/00-setup-and-tooling/02-git-and-collaboration/docs/en.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from en"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "phases/00-setup-and-tooling/02-git-and-collaboration/docs/en.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of en"
+              "title": "Outline of README"
             }
           }
         ]
@@ -185,12 +185,51 @@
   },
   "active": "17f56792d7d2ac9c",
   "lastOpenFiles": [
-    "phases/00-setup-and-tooling/03-gpu-setup-and-cloud/Untitled",
-    "phases/00-setup-and-tooling/01-dev-environment/outputs/prompt-env-check.md",
-    "phases/00-setup-and-tooling/01-dev-environment/outputs/env-check.txt",
-    "phases/00-setup-and-tooling/01-dev-environment/docs/en.md",
-    "glossary/myths.md",
+    "site/og-image.png",
     "assets/banner.svg",
-    "README.md"
+    "glossary/myths.md",
+    "glossary/terms.md",
+    "glossary/README.md",
+    "phases/00-setup-and-tooling/02-git-and-collaboration/docs/en.md",
+    "phases/00-setup-and-tooling/03-gpu-setup-and-cloud/code/cpu_benchmark.py",
+    "phases/08-generative-ai/08-controlnet-lora-conditioning/outputs/skill-sd-toolkit-composer.md",
+    "phases/08-generative-ai/08-controlnet-lora-conditioning/docs/en.md",
+    "phases/08-generative-ai/08-controlnet-lora-conditioning/code/main.py",
+    "phases/08-generative-ai/08-controlnet-lora-conditioning/assets/controlnet-lora.svg",
+    "phases/08-generative-ai/08-controlnet-lora-conditioning/outputs",
+    "phases/08-generative-ai/08-controlnet-lora-conditioning/notebook",
+    "phases/08-generative-ai/08-controlnet-lora-conditioning/docs",
+    "phases/08-generative-ai/08-controlnet-lora-conditioning/code",
+    "phases/08-generative-ai/08-controlnet-lora-conditioning/assets",
+    "phases/08-generative-ai/08-controlnet-lora-conditioning",
+    "phases/08-generative-ai/07-latent-diffusion-stable-diffusion/outputs/skill-sd-prompter.md",
+    "phases/08-generative-ai/07-latent-diffusion-stable-diffusion/docs/en.md",
+    "phases/08-generative-ai/07-latent-diffusion-stable-diffusion/code/main.py",
+    "phases/08-generative-ai/07-latent-diffusion-stable-diffusion/assets/latent-diffusion.svg",
+    "phases/08-generative-ai/07-latent-diffusion-stable-diffusion/outputs",
+    "phases/08-generative-ai/06-diffusion-ddpm-from-scratch/outputs/skill-diffusion-trainer.md",
+    "phases/08-generative-ai/06-diffusion-ddpm-from-scratch/docs/en.md",
+    "phases/08-generative-ai/06-diffusion-ddpm-from-scratch/assets/ddpm.svg",
+    "phases/08-generative-ai/05-stylegan/outputs/skill-stylegan-inversion.md",
+    "phases/08-generative-ai/05-stylegan/docs/en.md",
+    "phases/08-generative-ai/05-stylegan/assets/stylegan.svg",
+    "phases/08-generative-ai/04-conditional-gans-pix2pix/outputs/skill-img2img-chooser.md",
+    "phases/08-generative-ai/04-conditional-gans-pix2pix/docs/en.md",
+    "phases/08-generative-ai/04-conditional-gans-pix2pix/assets/pix2pix.svg",
+    "phases/08-generative-ai/03-gans-generator-discriminator/outputs/skill-gan-debugger.md",
+    "phases/08-generative-ai/03-gans-generator-discriminator/docs/en.md",
+    "phases/08-generative-ai/03-gans-generator-discriminator/assets/gan.svg",
+    "phases/08-generative-ai/02-autoencoders-vae/outputs/skill-vae-trainer.md",
+    "phases/08-generative-ai/02-autoencoders-vae/docs/en.md",
+    "phases/08-generative-ai/02-autoencoders-vae/assets/vae.svg",
+    "phases/08-generative-ai/01-generative-models-taxonomy-history/outputs/skill-model-chooser.md",
+    "phases/08-generative-ai/01-generative-models-taxonomy-history/docs/en.md",
+    "phases/08-generative-ai/01-generative-models-taxonomy-history/assets/taxonomy.svg",
+    "phases/07-transformers-deep-dive/16-speculative-decoding/outputs/skill-spec-decode-picker.md",
+    "phases/07-transformers-deep-dive/16-speculative-decoding/docs/en.md",
+    "phases/07-transformers-deep-dive/15-attention-variants/outputs/skill-attention-variant-picker.md",
+    "phases/07-transformers-deep-dive/15-attention-variants/docs/en.md",
+    "phases/07-transformers-deep-dive/14-build-a-transformer-capstone/outputs/skill-transformer-review.md",
+    "phases/07-transformers-deep-dive/14-build-a-transformer-capstone/assets/capstone.svg"
   ]
 }
