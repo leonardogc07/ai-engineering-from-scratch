@@ -28,7 +28,10 @@ sequenceDiagram
     S->>C: HTTP Response (JSON)
 ```
 
+
+
 Every API call has:
+
 1. An endpoint (URL)
 2. An API key (authentication)
 3. A request body (what you want)
@@ -115,17 +118,20 @@ This is what the SDKs do under the hood. Understanding the raw HTTP call helps w
 
 For this course:
 
-| API | When you need it | Free tier |
-|-----|-----------------|-----------|
-| Anthropic (Claude) | Phases 11-16 (agents, tools) | $5 credit on signup |
-| OpenAI | Phase 11 (comparison) | $5 credit on signup |
-| Hugging Face | Phases 4-10 (models, datasets) | Free |
+
+| API                | When you need it               | Free tier           |
+| ------------------ | ------------------------------ | ------------------- |
+| Anthropic (Claude) | Phases 11-16 (agents, tools)   | $5 credit on signup |
+| OpenAI             | Phase 11 (comparison)          | $5 credit on signup |
+| Hugging Face       | Phases 4-10 (models, datasets) | Free                |
+
 
 You don't need all of them right now. Set them up when the lesson requires it.
 
 ## Ship It
 
 This lesson produces:
+
 - `outputs/prompt-api-troubleshooter.md` - diagnose common API errors
 
 ## Exercises
@@ -136,9 +142,12 @@ This lesson produces:
 
 ## Key Terms
 
-| Term | What people say | What it actually means |
-|------|----------------|----------------------|
-| API key | "Password for the API" | A unique string that identifies your account and authorizes requests |
-| Rate limit | "They're throttling me" | Maximum requests per minute/hour to prevent abuse and ensure fair usage |
-| Token | "A word" (in API context) | A billing unit: input and output tokens are counted and charged separately |
-| Streaming | "Real-time responses" | Getting the response word by word instead of waiting for the full response |
+
+| Term       | What people say           | What it actually means                                                     |
+| ---------- | ------------------------- | -------------------------------------------------------------------------- |
+| API key    | "Password for the API"    | A unique string that identifies your account and authorizes requests       |
+| Rate limit | "They're throttling me"   | Maximum requests per minute/hour to prevent abuse and ensure fair usage    |
+| Token      | "A word" (in API context) | A billing unit: input and output tokens are counted and charged separately |
+| Streaming  | "Real-time responses"     | Getting the response word by word instead of waiting for the full response |
+
+
